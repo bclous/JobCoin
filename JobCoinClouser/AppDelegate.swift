@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let apiClient = JobCoinAPIClient()
+        let signInVC = SignInVC(apiClient: apiClient, colorScheme: ColorScheme())
+        let navigationController = UINavigationController(rootViewController: signInVC)
+        navigationController.navigationBar.isTranslucent = false
+        self.window?.rootViewController = navigationController
+        
         return true
     }
 

@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7AB41F8CE8468A4651D45141 /* Pods_JobCoinClouser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B69BB5F7E35FB0EA1939DC /* Pods_JobCoinClouser.framework */; };
+		AB709551232D251A00D488C3 /* AddressBalanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB709550232D251A00D488C3 /* AddressBalanceCell.swift */; };
+		AB709553232D2E9B00D488C3 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB709552232D2E9B00D488C3 /* TransactionCell.swift */; };
+		AB709555232D374F00D488C3 /* BalanceHistoryGraphCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB709554232D374F00D488C3 /* BalanceHistoryGraphCell.swift */; };
+		AB709557232E828F00D488C3 /* DateClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB709556232E828F00D488C3 /* DateClient.swift */; };
+		AB746E33232F2EFE00D98304 /* BDCStockChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB746E32232F2EFE00D98304 /* BDCStockChart.swift */; };
 		ABBAC631232C15B4008061DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAC630232C15B4008061DD /* AppDelegate.swift */; };
-		ABBAC633232C15B4008061DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAC632232C15B4008061DD /* ViewController.swift */; };
+		ABBAC633232C15B4008061DD /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAC632232C15B4008061DD /* SignInVC.swift */; };
 		ABBAC636232C15B4008061DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBAC634232C15B4008061DD /* Main.storyboard */; };
 		ABBAC638232C15B9008061DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBAC637232C15B9008061DD /* Assets.xcassets */; };
 		ABBAC63B232C15B9008061DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBAC639232C15B9008061DD /* LaunchScreen.storyboard */; };
+		ABBAC643232C1B73008061DD /* JobCoinAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAC642232C1B73008061DD /* JobCoinAPIClient.swift */; };
+		ABD24330232FB3FF00576F97 /* JobcoinChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2432F232FB3FF00576F97 /* JobcoinChartView.swift */; };
+		ABD24332232FE31B00576F97 /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD24331232FE31B00576F97 /* ColorScheme.swift */; };
+		ABD24334232FE9F200576F97 /* SendCoinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD24333232FE9F200576F97 /* SendCoinVC.swift */; };
+		ABD24336232FFC7600576F97 /* SendConfirmationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD24335232FFC7600576F97 /* SendConfirmationVC.swift */; };
+		ABF398FF232C219D00CFCE73 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF398FE232C219D00CFCE73 /* User.swift */; };
+		ABF39903232C8AC800CFCE73 /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF39902232C8AC800CFCE73 /* UserVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12ACA5DD8FA5CF4DA0D461D1 /* Pods-JobCoinClouser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobCoinClouser.release.xcconfig"; path = "Pods/Target Support Files/Pods-JobCoinClouser/Pods-JobCoinClouser.release.xcconfig"; sourceTree = "<group>"; };
+		82B69BB5F7E35FB0EA1939DC /* Pods_JobCoinClouser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobCoinClouser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB709550232D251A00D488C3 /* AddressBalanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBalanceCell.swift; sourceTree = "<group>"; };
+		AB709552232D2E9B00D488C3 /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		AB709554232D374F00D488C3 /* BalanceHistoryGraphCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceHistoryGraphCell.swift; sourceTree = "<group>"; };
+		AB709556232E828F00D488C3 /* DateClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateClient.swift; sourceTree = "<group>"; };
+		AB746E32232F2EFE00D98304 /* BDCStockChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDCStockChart.swift; sourceTree = "<group>"; };
 		ABBAC62D232C15B4008061DD /* JobCoinClouser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobCoinClouser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBAC630232C15B4008061DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABBAC632232C15B4008061DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABBAC632232C15B4008061DD /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		ABBAC635232C15B4008061DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABBAC637232C15B9008061DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABBAC63A232C15B9008061DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABBAC63C232C15B9008061DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBAC642232C1B73008061DD /* JobCoinAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCoinAPIClient.swift; sourceTree = "<group>"; };
+		ABD2432F232FB3FF00576F97 /* JobcoinChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobcoinChartView.swift; sourceTree = "<group>"; };
+		ABD24331232FE31B00576F97 /* ColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorScheme.swift; sourceTree = "<group>"; };
+		ABD24333232FE9F200576F97 /* SendCoinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendCoinVC.swift; sourceTree = "<group>"; };
+		ABD24335232FFC7600576F97 /* SendConfirmationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendConfirmationVC.swift; sourceTree = "<group>"; };
+		ABF398FE232C219D00CFCE73 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ABF39902232C8AC800CFCE73 /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
+		F40AF87870A5E7F0A1ED89B4 /* Pods-JobCoinClouser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobCoinClouser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JobCoinClouser/Pods-JobCoinClouser.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AB41F8CE8468A4651D45141 /* Pods_JobCoinClouser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B1A1317419BFE88E2546D0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82B69BB5F7E35FB0EA1939DC /* Pods_JobCoinClouser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FC531D0E8B3A704EA750523 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F40AF87870A5E7F0A1ED89B4 /* Pods-JobCoinClouser.debug.xcconfig */,
+				12ACA5DD8FA5CF4DA0D461D1 /* Pods-JobCoinClouser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ABBAC624232C15B4008061DD = {
 			isa = PBXGroup;
 			children = (
 				ABBAC62F232C15B4008061DD /* JobCoinClouser */,
 				ABBAC62E232C15B4008061DD /* Products */,
+				7FC531D0E8B3A704EA750523 /* Pods */,
+				5B1A1317419BFE88E2546D0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +103,19 @@
 			isa = PBXGroup;
 			children = (
 				ABBAC630232C15B4008061DD /* AppDelegate.swift */,
-				ABBAC632232C15B4008061DD /* ViewController.swift */,
+				ABBAC632232C15B4008061DD /* SignInVC.swift */,
+				ABF39902232C8AC800CFCE73 /* UserVC.swift */,
+				ABD24333232FE9F200576F97 /* SendCoinVC.swift */,
+				ABD24335232FFC7600576F97 /* SendConfirmationVC.swift */,
+				ABD24331232FE31B00576F97 /* ColorScheme.swift */,
+				AB709556232E828F00D488C3 /* DateClient.swift */,
+				ABD2432F232FB3FF00576F97 /* JobcoinChartView.swift */,
+				AB746E32232F2EFE00D98304 /* BDCStockChart.swift */,
+				AB709550232D251A00D488C3 /* AddressBalanceCell.swift */,
+				AB709552232D2E9B00D488C3 /* TransactionCell.swift */,
+				AB709554232D374F00D488C3 /* BalanceHistoryGraphCell.swift */,
+				ABF398FE232C219D00CFCE73 /* User.swift */,
+				ABBAC642232C1B73008061DD /* JobCoinAPIClient.swift */,
 				ABBAC634232C15B4008061DD /* Main.storyboard */,
 				ABBAC637232C15B9008061DD /* Assets.xcassets */,
 				ABBAC639232C15B9008061DD /* LaunchScreen.storyboard */,
@@ -71,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABBAC63F232C15B9008061DD /* Build configuration list for PBXNativeTarget "JobCoinClouser" */;
 			buildPhases = (
+				5A7EAD73472A5E8D4B924C29 /* [CP] Check Pods Manifest.lock */,
 				ABBAC629232C15B4008061DD /* Sources */,
 				ABBAC62A232C15B4008061DD /* Frameworks */,
 				ABBAC62B232C15B4008061DD /* Resources */,
+				2C4965C9F6C23070572C82F1 /* [CP] Embed Pods Frameworks */,
+				3A57F630238E1389E9483DEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +193,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C4965C9F6C23070572C82F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JobCoinClouser/Pods-JobCoinClouser-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JobCoinClouser/Pods-JobCoinClouser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A57F630238E1389E9483DEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JobCoinClouser/Pods-JobCoinClouser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A7EAD73472A5E8D4B924C29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JobCoinClouser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ABBAC629232C15B4008061DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABBAC633232C15B4008061DD /* ViewController.swift in Sources */,
+				AB709553232D2E9B00D488C3 /* TransactionCell.swift in Sources */,
+				ABD24334232FE9F200576F97 /* SendCoinVC.swift in Sources */,
+				ABD24330232FB3FF00576F97 /* JobcoinChartView.swift in Sources */,
+				ABF398FF232C219D00CFCE73 /* User.swift in Sources */,
+				AB709555232D374F00D488C3 /* BalanceHistoryGraphCell.swift in Sources */,
+				ABD24332232FE31B00576F97 /* ColorScheme.swift in Sources */,
+				ABF39903232C8AC800CFCE73 /* UserVC.swift in Sources */,
+				ABBAC633232C15B4008061DD /* SignInVC.swift in Sources */,
+				AB746E33232F2EFE00D98304 /* BDCStockChart.swift in Sources */,
 				ABBAC631232C15B4008061DD /* AppDelegate.swift in Sources */,
+				AB709557232E828F00D488C3 /* DateClient.swift in Sources */,
+				ABBAC643232C1B73008061DD /* JobCoinAPIClient.swift in Sources */,
+				AB709551232D251A00D488C3 /* AddressBalanceCell.swift in Sources */,
+				ABD24336232FFC7600576F97 /* SendConfirmationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +423,7 @@
 		};
 		ABBAC640232C15B9008061DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F40AF87870A5E7F0A1ED89B4 /* Pods-JobCoinClouser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +442,7 @@
 		};
 		ABBAC641232C15B9008061DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12ACA5DD8FA5CF4DA0D461D1 /* Pods-JobCoinClouser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
